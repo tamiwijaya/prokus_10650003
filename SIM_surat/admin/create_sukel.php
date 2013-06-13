@@ -27,7 +27,7 @@ include 'main.php';
           
         
                
-     <h2>Entry Surat Masuk</h2>
+     <h2>Entry Surat Keluar</h2>
 
  <div class="form">
 <form action="sukel_created.php" method="post" enctype="multipart/form-data" name="form1" id="form1" class="niceform">
@@ -42,7 +42,10 @@ include 'main.php';
 </select>
 </dd>
 
-
+<dl>
+<dt><label for="title">Id surat</label></dt>
+<dd><input type="text" name="id" id="id" value="" size="54"/></dd>
+</dl>
 
 <dl>
 <dt><label for="title">Nomor surat</label></dt>
@@ -51,7 +54,7 @@ include 'main.php';
 
 <dl>
 <dt><label for="title">Tanggal Surat</label></dt>
-<dd><input type="text" name="tgl" id="tgl" value="" size="54"/></dd>
+<dd><input type="text" name="tgl" id="inputField" value="" size="54"/></dd>
 </dl>
 
 
@@ -77,7 +80,7 @@ include 'main.php';
 
 <dl>
 <dt><label for="title">File Surat</label></dt>
-<dd><input type="text" name="file" id="file" value="" size="54"/></dd>
+<dd><input type="file" name="file" id="file" value="" size="54"/></dd>
 </dl>
 
 <dt><p align="center"></dt>

@@ -12,7 +12,7 @@ die("connection to database failed".mysql_error());
 }
 
 /* selecting the database "complete_cms" */
-$dataselect = mysql_select_db("surat",$con);
+$dataselect = mysql_select_db("suratku",$con);
 if(!$dataselect)
 {
 die("Database namelist not selected".mysql_error());

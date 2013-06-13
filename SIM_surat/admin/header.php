@@ -55,7 +55,7 @@ tinyMCE.init({
   <div id="header">
     <div id="logo">
       <h1><a href="#">SISTEM INFORMASI MANAJEMEN SURAT</a></h1>
-      <p>Kementerian Agama Purwokerto</p>
+      <p>Kementerian Agama Banyumas Purwokerto</p>
     </div>
     <div id="topnav">
       <ul>

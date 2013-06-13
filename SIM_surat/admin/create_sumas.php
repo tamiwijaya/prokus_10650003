@@ -43,6 +43,10 @@ include 'main.php';
 </dd>
 
 
+<dl>
+<dt><label for="title">Id surat</label></dt>
+<dd><input type="text" name="id" id="id" value="" size="54"/></dd>
+</dl>
 
 <dl>
 <dt><label for="title">Nomor surat</label></dt>
@@ -51,13 +55,13 @@ include 'main.php';
 
 <dl>
 <dt><label for="title">Tanggal Surat</label></dt>
-<dd><input type="text" name="tgl" id="tgl" value="" size="54"/></dd>
+<dd><input type="text" name="tgl" id="inputField" value="" size="54"/></dd>
 </dl>
 
 
 <dl>
 <dt><label for="title">Tanggal Surat Diterima</label></dt>
-<dd><input type="text" name="tglsur" id="tglsur" value="" size="54"/></dd>
+<dd><input type="text" name="tglsur" id="inputField" value="" size="54"/></dd>
 </dl>
 
 <dl>
@@ -82,7 +86,7 @@ include 'main.php';
 
 <dl>
 <dt><label for="title">File Surat</label></dt>
-<dd><input type="text" name="file" id="file" value="" size="54"/></dd>
+<dd><input type="file" name="file" id="file" value="" size="54"/></dd>
 </dl>
 
 <dt><p align="center"></dt>

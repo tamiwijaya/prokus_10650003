@@ -30,14 +30,6 @@ include 'config.php';
                 else $status = "<a href=index.php>Home</a>"; 
                 echo $status;  
                 ?></li>
-        <li><? 
-                if (isset($_SESSION['nip'])) $status = "<a href=ebook.php>Ebook</a>"; 
-                else $status = "<a href=pengurus.php>Pengurus</a>"; 
-                echo $status;  
-                ?></li>
-        
-        
-        <li class="last"><a href="#">Tentang Kami</a></li>
 		
       </ul>
     </div>
